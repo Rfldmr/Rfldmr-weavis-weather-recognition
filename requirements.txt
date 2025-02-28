@@ -1,10 +1,9 @@
-torch
-torchvision.transforms
-torchvision.models
+torch==2.5.1
+torchvision==0.20.1
 streamlit
-Pillow
+pillow==11.1.0
 os
 time
 io
-cv2
-requests
+opencv-python==4.11.0.86
+requests==2.32.3
