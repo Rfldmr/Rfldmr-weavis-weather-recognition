@@ -2,5 +2,4 @@ torch==2.5.1
 torchvision==0.20.1
 streamlit
 pillow==11.1.0
-opencv-python 
 requests==2.32.3
