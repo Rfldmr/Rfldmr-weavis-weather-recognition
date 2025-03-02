@@ -7,7 +7,6 @@ import requests
 import os
 import time
 from io import BytesIO
-import cv2
 
 
 # Import torchvision
