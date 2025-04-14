@@ -18,8 +18,8 @@ WeaVis is a simple website that can recognize weather uploaded by users or throu
 
 ## ✨ Features
 
-- **🔐 User Authentication:** Secure login with personalized access levels.
-- **🌍 Issue Management:** Create, view, update, and delete issues; assign tasks to team members.
+- **🔐 Weather recognition by uploading images:** Secure login with personalized access levels.
+- **🌍 Weather recognition with real-time scanning:** Create, view, update, and delete issues; assign tasks to team members.
 - **🔍 Filtering & Sorting:** Advanced options to quickly find and prioritize tasks.
 - **📄 Pagination & Analytics:** Navigate large lists and gain insights with charts and dashboards.
 - **🎯 Production Optimization:** Built for speed and reliability in production environments.
