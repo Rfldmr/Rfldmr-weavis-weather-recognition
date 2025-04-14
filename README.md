@@ -7,7 +7,7 @@
 <img src="./asset/logo.png" width="90" alt="Logo" />
 </a>
 
-<h2> Project Name : Readme Template </h2>
+<h2> Project Name : WeaVis: Weather Recognition </h2>
 
 ![](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
