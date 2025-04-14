@@ -59,7 +59,7 @@ We welcome contributions to this project. Please follow these steps to contribut
 ## 📉 Model Accuracy and Loss Graph
 
 - **CNN Based Model**
-<img src ="./asset/screen.png" width="60%">
+<img src ="./asset/111.png" width="60%">
 
 - **ResNet50 Model**
 <img src ="./asset/screen.png" width="60%">
