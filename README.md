@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<h2> Project Name : WeaVis: Weather Recognition </h2>
+<h2> WeaVis: Weather Recognition </h2>
 
 <img src ="./asset/screen.png" width="80%">
 
