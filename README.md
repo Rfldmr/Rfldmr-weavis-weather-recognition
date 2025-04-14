@@ -73,6 +73,6 @@ We welcome contributions to this project. Please follow these steps to contribut
 - **VGG16 Model**
 <img src ="./asset/screen.png" width="60%">
 
-## ⛔️ Copyright
+## ⚖️ Copyright
 
 © 2025 Rafli Damara.
