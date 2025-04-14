@@ -63,7 +63,7 @@ Credits to the original dataset owner:
 - **VGG16 Model**
 <img src ="./asset/screen.png" width="60%">
 
-## 🛠️ Installation
+## 📝 How to Use?
 
 We welcome contributions to this project. Please follow these steps to contribute:
 
@@ -73,6 +73,6 @@ We welcome contributions to this project. Please follow these steps to contribut
 4. **Push to the branch** (`git push origin feature/your-feature-name`).
 5. **Open a pull request**.
 
-## 📃 Copyright
+## ⛔️ Copyright
 
 © 2025 Rafli Damara.
