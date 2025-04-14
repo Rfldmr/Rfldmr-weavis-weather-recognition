@@ -51,9 +51,9 @@ Credits to the original dataset owner:
 We welcome contributions to this project. Please follow these steps to contribute:
 
 1. **Clone this repository to your computer** (`git clone https://github.com/Rfldmr/weavis-weather-recognition-using-cnn.git`)
-2. **Read the requirements.txt file in the repository, make sure you have installed everything needed according to the version listed.
+2. **Read the requirements.txt file in the repository, make sure you have installed everything needed according to the version listed.**
 3. **Open the file named app.py which is in the repository.**
-4. **Install the Streamlit framework with the following command:** (`pip install streamlit`).
+4. **Install the Streamlit framework with the following command** (`pip install streamlit`).
 5. **Jalankan perintah berikut untuk menjalankan program di localhost** (`python -m streamlit run app.py`).
 
 ## 📉 Model Accuracy and Loss Graph
