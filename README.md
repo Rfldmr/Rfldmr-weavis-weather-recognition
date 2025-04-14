@@ -3,9 +3,6 @@
 </div>
 
 <div align="center">
-<a href="https://github.com/Sumonta056/FixHub-Issue-Tracker-Website" target="blank">
-<img src="./asset/logo.png" width="90" alt="Logo" />
-</a>
 
 <h2> Project Name : WeaVis: Weather Recognition </h2>
 
