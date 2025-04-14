@@ -65,66 +65,6 @@ Credits to the original dataset owner:
 
 ## 🛠️ Installation
 
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/sumonta056/readme-template.git
-   cd readme-template
-   ```
-
-2. **Install dependencies:**
-
-   Using Npm:
-
-   ```bash
-   npm install
-   ```
-
-3. **Set up environment variables:**
-
-   Create a `.env` file in the root directory and add the following variables:
-
-   ```env
-   NEXT_PUBLIC_APP_URL=http://localhost:3000
-
-   #database
-   DATABASE_URL=your_database_url
-   DATABASE_SECRET=your_database_secret
-   DRIZZLE_DATABASE_URL=your_database_url_for_drizzle
-
-   #auth
-   AUTH_SECRET=any_random_secret
-   ```
-
-4. **Run database migrations:**
-
-   Ensure your database is running and then run:
-
-   ```bash
-   npm run drizzle-kit migrate
-   ```
-
-5. **Start the development server:**
-
-   ```bash
-   npm run dev
-   ```
-
-## 📖 Usage
-
-### ✔ Running the Website
-
-- **Development mode:** `npm run dev`, `yarn dev`, or `bun dev`.
-- **Production mode:** `npm run build && npm start`, `yarn build && yarn start`, or `bun run build && bun start`.
-
-> Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
-
-### 📃 API Documentation
-
-The API documentation for this application is available at [http://localhost:3000/api/docs](http://localhost:3000/api/docs). It details all endpoints and their usage.
-
-## 🤝 Contributing
-
 We welcome contributions to this project. Please follow these steps to contribute:
 
 1. **Fork the repository.**
@@ -133,20 +73,6 @@ We welcome contributions to this project. Please follow these steps to contribut
 4. **Push to the branch** (`git push origin feature/your-feature-name`).
 5. **Open a pull request**.
 
-Please make sure to update tests as appropriate.
+## 📃 Copyright
 
-## 🐛 Issues
-
-If you encounter any issues while using or setting up the project, please check the [Issues]() section to see if it has already been reported. If not, feel free to open a new issue detailing the problem.
-
-When reporting an issue, please include:
-
-- A clear and descriptive title.
-- A detailed description of the problem.
-- Steps to reproduce the issue.
-- Any relevant logs or screenshots.
-- The environment in which the issue occurs (OS, browser, Node.js version, etc.).
-
-## 📜 License
-
-Distributed under the MIT License. See [License](/LICENSE) for more information.
+© 2025 Rafli Damara.
