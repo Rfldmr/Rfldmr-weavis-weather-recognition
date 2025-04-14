@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<h2> ⛅ WeaVis: Weather Recognition </h2>
+<a href="https://weavis.streamlit.app/"><h2> ⛅ WeaVis: Weather Recognition </h2></a>
 
 <br>
 
