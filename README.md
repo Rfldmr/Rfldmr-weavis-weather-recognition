@@ -25,14 +25,17 @@ WeaVis is a simple website that can recognize weather uploaded by users or throu
 
 ## 👩‍💻 Tech Stack
 
-- **Next.js**: A React framework for building server-side rendering and static web applications.
-- **Auth.js**: Free and open source Authentication for the Web.
-- **Hono**: A lightweight web framework for building server-side applications with TypeScript.
-- **Drizzle ORM**: TypeScript-first ORM for type-safe database access.
-- **React Query**: Data-fetching library for managing server-state in React applications.
-- **Npm Package**: A fast JavaScript runtime that includes a package manager, task runner, and more.
+- **Python**: A React framework for building server-side rendering and static web applications.
+- **PyTorch**: Free and open source Authentication for the Web.
+- **Streamlit**: A lightweight web framework for building server-side applications with TypeScript.
+- **GitHub**: A lightweight web framework for building server-side applications with TypeScript.
+- **ResNet50**: A lightweight web framework for building server-side applications with TypeScript.
+- **AlexNet**: A lightweight web framework for building server-side applications with TypeScript.
+- **MobileNet v3 Large**: A lightweight web framework for building server-side applications with TypeScript.
+- **VGG16**: A lightweight web framework for building server-side applications with TypeScript.
+- **Adam Optimizer**: A lightweight web framework for building server-side applications with TypeScript.
 
-## 📖 Sources and external API's
+## 📖 Dataset
 
 - [NASA](https://www.nasa.gov) for space exploration and research
 - [National Geographic](https://www.nationalgeographic.com) for nature and science articles
