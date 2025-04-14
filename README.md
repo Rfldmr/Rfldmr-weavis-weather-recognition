@@ -29,16 +29,13 @@ WeaVis is a simple website that can recognize weather uploaded by users or throu
 
 ## 👩‍💻 Tech Stack
 
-- **Python**: A React framework for building server-side rendering and static web applications.
-- **PyTorch**: Free and open source Authentication for the Web.
-- **Streamlit**: A lightweight web framework for building server-side applications with TypeScript.
-- **GitHub**: A lightweight web framework for building server-side applications with TypeScript.
-- **ResNet50**: A lightweight web framework for building server-side applications with TypeScript.
-- **AlexNet**: A lightweight web framework for building server-side applications with TypeScript.
-- **MobileNet v3 Large**: A lightweight web framework for building server-side applications with TypeScript.
-- **VGG16**: A lightweight web framework for building server-side applications with TypeScript.
-- **Adam Optimizer**: A lightweight web framework for building server-side applications with TypeScript.
-
+- **Python**:  A versatile programming language used for web development, machine learning, and more.
+- **PyTorch**: An open-source machine learning library based on Torch.
+- **Streamlit**: A Python library for creating interactive web apps for data science and machine learning.
+- **GitHub**: A platform for help host and managing code projects.
+- **ResNet50, AlexNet, MobileNet v3 Large, VGG16**: CNN architectures commonly used in computer vision tasks.
+- **Adam Optimizer**: An optimization algorithm used in training neural networks.
+  
 ## 📖 Dataset
 
 - [NASA](https://www.nasa.gov) for space exploration and research
