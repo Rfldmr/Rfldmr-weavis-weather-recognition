@@ -38,20 +38,15 @@ WeaVis is a simple website that can recognize weather uploaded by users or throu
   
 ## 📖 Dataset
 
-- [NASA](https://www.nasa.gov) for space exploration and research
+[Click here](https://drive.google.com/drive/folders/1FUQS6PoDmd0uHLU0gUPyAM5lNV8ODXzp?usp=sharing) to access the dataset.
+
+Credits to the original dataset owner:
 - [National Geographic](https://www.nationalgeographic.com) for nature and science articles
 - [Stack Overflow](https://stackoverflow.com) for programming questions and answers
-- [Wikipedia](https://www.wikipedia.org) for a wide range of information on various topics
 
 ## 📦 Getting Started
 
 To get a local copy of this project up and running, follow these steps.
-
-### 🚀 Prerequisites
-
-- **Node.js** (v16.x or higher) and **npm** or **yarn**.
-- **Npm** If you prefer using npm for package management and running scripts.
-- **PostgreSQL** (or another supported SQL database).
 
 ## 🛠️ Installation
 
