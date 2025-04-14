@@ -48,19 +48,19 @@ Credits to the original dataset owner:
 
 ## 📉 Model Accuracy and Loss Graph
 
-**CNN Based Model**
+- **CNN Based Model**
 <img src ="./asset/screen.png" width="65%">
-<br>
-**ResNet50 Model**
+
+- **ResNet50 Model**
 <img src ="./asset/screen.png" width="65%">
-<br>
-**AlexNet Model**
+
+- **AlexNet Model**
 <img src ="./asset/screen.png" width="65%">
-<br>
-**MobileNet v3 Large Model**
+
+- **MobileNet v3 Large Model**
 <img src ="./asset/screen.png" width="65%">
-<br>
-**VGG16 Model**
+
+- **VGG16 Model**
 <img src ="./asset/screen.png" width="65%">
 
 ## 🛠️ Installation
