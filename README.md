@@ -6,7 +6,7 @@
 
 <h2> WeaVis: Weather Recognition </h2>
 
-<img src ="./asset/screen.png" width="100%">
+<img src ="./asset/screen.png" width="70%">
 
 </div>
 
