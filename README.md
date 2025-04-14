@@ -40,9 +40,11 @@ WeaVis is a simple website that can recognize weather uploaded by users or throu
 
 [Click here](https://drive.google.com/drive/folders/1FUQS6PoDmd0uHLU0gUPyAM5lNV8ODXzp?usp=sharing) to access the dataset.
 
+<br>
+
 Credits to the original dataset owner:
-- [National Geographic](https://www.nationalgeographic.com) for nature and science articles
-- [Stack Overflow](https://stackoverflow.com) for programming questions and answers
+- Xiao, H. (2021). Weather phenomenon database (WEAPD). Harvard Dataverse. [DOI](https://doi.org/10.7910/DVN/M8JQCR)
+- Ajayi, G. (2018). Multi-class Weather Dataset for Image Classification. Mendeley Data, V1. [DOI](http://dx.doi.org/10.17632/4drtyfjtfy.1)
 
 ## 📦 Getting Started
 
