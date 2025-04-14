@@ -46,7 +46,7 @@ Credits to the original dataset owner:
 - Xiao, H. (2021). Weather phenomenon database (WEAPD). Harvard Dataverse. [DOI](https://doi.org/10.7910/DVN/M8JQCR)
 - Ajayi, G. (2018). Multi-class Weather Dataset for Image Classification. Mendeley Data, V1. [DOI](http://dx.doi.org/10.17632/4drtyfjtfy.1)
 
-## 📦 Getting Started
+## 📉 Model Accuracy and Loss Graph
 
 To get a local copy of this project up and running, follow these steps.
 
