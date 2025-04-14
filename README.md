@@ -1,15 +1,10 @@
 
 <div align= "center">
-
-⭐ **If you like this project, please star the repository!** ⭐ <br>
-------- 👇 **Template Demo Below** 👇 --------
-
-<hr>
 </div>
 
 <div align="center">
 <a href="https://github.com/Sumonta056/FixHub-Issue-Tracker-Website" target="blank">
-<img src="./assets/chatBot.png" width="90" alt="Logo" />
+<img src="./asset/logo.png" width="90" alt="Logo" />
 </a>
 
 <h2> Project Name : Readme Template </h2>
