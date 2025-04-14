@@ -12,7 +12,7 @@
 
 ## 💡 Overview
 
-FixHub is a powerful and intuitive issue tracker built using Next.js and SQL, designed to streamline bug management and project tracking. With a focus on efficiency and user-friendliness, FixHub allows for seamless creation, viewing, updating, and deletion of issues. Key features include:
+WeaVis is a simple website that can recognize weather uploaded by users or through live camera photos. WeaVis will also provide descriptions and information about the weather uploaded by users. WeaVis is built using a CNN model with MobileNet architecture, and Streamlit as a support library to build the website display.
 
 ## ✨ Features
 
