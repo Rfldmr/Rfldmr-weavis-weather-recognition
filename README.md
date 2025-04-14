@@ -59,19 +59,19 @@ We welcome contributions to this project. Please follow these steps to contribut
 ## 📉 Model Accuracy and Loss Graph
 
 - **CNN Based Model**
-<img src ="./asset/111.png" width="60%">
+<img src ="./asset/cnnbased_graph.png" width="60%">
 
 - **ResNet50 Model**
-<img src ="./asset/screen.png" width="60%">
+<img src ="./asset/ResNet50_graph.png" width="60%">
 
 - **AlexNet Model**
-<img src ="./asset/screen.png" width="60%">
+<img src ="./asset/AlexNet_graph.png" width="60%">
 
 - **MobileNet v3 Large Model**
-<img src ="./asset/screen.png" width="60%">
+<img src ="./asset/MobileNet v3 Large_graph.png" width="60%">
 
 - **VGG16 Model**
-<img src ="./asset/screen.png" width="60%">
+<img src ="./asset/VGG16_graph.png" width="60%">
 
 ## ⚖️ Copyright
 
