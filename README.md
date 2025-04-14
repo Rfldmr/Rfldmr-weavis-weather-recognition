@@ -18,15 +18,10 @@ WeaVis is a simple website that can recognize weather uploaded by users or throu
 
 ## ✨ Features
 
-- **🔐 Weather recognition by uploading images:** Secure login with personalized access levels.
-- **🌍 Weather recognition with real-time scanning:** Create, view, update, and delete issues; assign tasks to team members.
-- **🔍 Filtering & Sorting:** Advanced options to quickly find and prioritize tasks.
-- **📄 Pagination & Analytics:** Navigate large lists and gain insights with charts and dashboards.
-- **🎯 Production Optimization:** Built for speed and reliability in production environments.
-- **🔧 Customization:** Tailor settings and configurations to your needs.
-- **📱 Responsive Design:** Access on any device with adaptive design.
-
-Whether you're a solo developer or part of a large team, FixHub is the perfect tool for tracking and resolving issues with ease.🐞
+- 📤 Weather recognition by uploading images.
+- 📸 Weather recognition with real-time camera.
+- 📢 Information on what to do and what not to do during the weather.
+- 📄 Explanation of the current weather.
 
 ## 👩‍💻 Tech Stack
 
