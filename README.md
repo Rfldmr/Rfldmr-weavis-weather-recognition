@@ -18,7 +18,7 @@ WeaVis is a simple website that can recognize weather uploaded by users or throu
 
 ## ⛓️‍💥 Project Link
 
-WeaVis is a simple website that can recognize weather.
+[Click here](https://weavis.streamlit.app) to take you to the WeaVis project website.
 
 ## ✨ Features
 
