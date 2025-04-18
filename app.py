@@ -8,13 +8,10 @@ import os
 import time
 from io import BytesIO
 
-
-# Import torchvision
 import torchvision
 
 torch.classes.__path__ = [os.path.join(torch.__path__[0], torch.classes.__file__)] 
 
-# Preprocessing transformations
 preprocess = transforms.Compose([
     transforms.Resize((240, 240)),
     transforms.CenterCrop((240, 240)),
@@ -91,7 +88,7 @@ weather_dont = {
     
     "Petir": "\n* Berdiri di bawah pohon atau struktur tinggi.\n* Menggunakan ponsel atau alat listrik saat ada petir.\n* Berenang atau berada di dekat kolam.\n* Mengemudikan kendaraan tanpa memeriksa cuaca.\n* Mengabaikan peringatan tentang badai petir.",
     
-    "Hujan": "\n* Mengemudikan kendaraan dengan kecepatan tinggi.\n* Berjalan di jalan yang tergenang air.\n* Mengabaikan potensi banjir Menggunakan perangkat elektronik di luar.\n* Meninggalkan barang berharga di luar.",
+    "Hujan": "\n* Mengemudikan kendaraan dengan kecepatan tinggi.\n* Berjalan di jalan yang tergenang air.\n* Mengabaikan potensi banjir.\n* Menggunakan perangkat elektronik di luar.\n* Meninggalkan barang berharga di luar.",
     
     "Pelangi": "\n* Mengabaikan cuaca yang masih berpotensi hujan.\n* Berada di area yang berbahaya saat mengambil foto.\n* Mengemudikan kendaraan dengan sembrono.\n* Meninggalkan kendaraan tanpa pengawasan.\n* Mengabaikan peringatan cuaca.",
     
@@ -101,6 +98,26 @@ weather_dont = {
     
     "Cerah": "\n* Berjemur di bawah terik matahari selama waktu terpanas.\n* Lupa minum air putih dan dehidrasi.\n* Menggunakan pakaian gelap.\n* Mengabaikan kesehatan.\n* Meninggalkan barang berharga di luar ruangan.",
 }
+
+
+weather_funfact = {
+    "Berembun": "Embun pagi yang sering kita lihat menempel di dedaunan bukanlah sekadar tetesan air biasa. Bayangkan jutaan tetesan air mungil, masing-masing seperti sebuah permata kecil yang berkilauan di bawah sinar matahari pagi. Proses terbentuknya embun itu sendiri cukup ajaib; uap air di udara mendingin dan mengembun di permukaan yang lebih dingin, seperti daun atau rumput, membentuk tetesan-tetesan kecil yang kemudian bergabung menjadi embun yang lebih besar. Lebih menarik lagi, embun ini berperan penting dalam kehidupan tumbuhan, menyediakan sumber air tambahan di pagi hari, layaknya sebuah minuman segar untuk tanaman! Jadi, lain kali kamu melihat embun pagi, bayangkanlah jutaan tetesan air mungil itu sebagai sebuah keajaiban alam mini.",
+    
+    "Berkabut": "Kabut, yang seringkali digambarkan sebagai pemandangan yang suram, menyimpan rahasia yang cukup menarik. Pernahkah kamu memperhatikan bagaimana suara-suara di sekitarmu terdengar lebih jelas dan nyaring saat berkabut? Ini karena kabut, yang terdiri dari tetesan air kecil yang melayang di udara, mampu menyerap dan membiaskan gelombang suara dengan cara yang unik, sehingga suara-suara tersebut seolah-olah dipantulkan kembali ke pendengaran kita. Selain itu, kabut juga menciptakan ilusi optik yang menarik. Objek yang berada di kejauhan terlihat lebih dekat dan kabur, menciptakan suasana misterius yang seringkali menginspirasi seniman dan penulis.",
+    
+    "Petir": "Kita semua tahu petir sebagai kilatan cahaya yang menakjubkan dan suara gemuruh yang menggelegar. Namun, tahukah kamu bahwa setiap sambaran petir sebenarnya menghasilkan gelombang radio yang kuat? Gelombang ini, meskipun tak terlihat, bisa ditangkap oleh radio dan menghasilkan suara kretek yang khas. Lebih unik lagi, energi listrik yang dihasilkan oleh satu sambaran petir cukup untuk menyalakan sebuah lampu 100 watt selama berbulan-bulan! Bayangkan kekuatan alam yang luar biasa terpendam dalam fenomena alam yang spektakuler ini.",
+    
+    "Hujan": "Hujan, sumber kehidupan bagi planet kita, tidak selalu jatuh dalam bentuk tetesan air yang biasa kita kenal. Di beberapa daerah dengan suhu yang sangat rendah, hujan bisa berbentuk butiran es kecil yang disebut hujan es, atau bahkan berupa salju yang leleh sebelum mencapai tanah. Bentuk dan ukuran tetesan hujan pun beragam, dipengaruhi oleh kecepatan angin dan ketinggian awan. Jadi, hujan bukanlah sekadar air yang jatuh dari langit, tetapi sebuah fenomena alam yang kompleks dan beragam.",
+    
+    "Pelangi": "Pelangi, simbol keindahan dan harapan, lebih dari sekadar busur warna-warni di langit. Tahukah kamu bahwa untuk melihat pelangi, kamu harus berada di antara matahari dan hujan? Matahari harus berada di belakangmu, dan hujan di depanmu. Dan, meskipun terlihat seperti busur, pelangi sebenarnya merupakan lingkaran penuh yang bagian bawahnya terhalang oleh cakrawala. Jadi, lain kali kamu melihat pelangi, ingatlah bahwa kamu sedang menyaksikan sebuah fenomena optik yang menakjubkan dan penuh misteri.",
+    
+    "Badai Pasir": "Badai pasir, yang seringkali digambarkan sebagai pemandangan yang dramatis dan menakutkan, memiliki kekuatan yang luar biasa. Angin kencang mampu mengangkat pasir dan debu hingga ketinggian yang sangat tinggi, menciptakan pemandangan yang spektakuler namun juga berbahaya. Lebih menakjubkan lagi, badai pasir mampu mengangkut pasir dan debu hingga ke tempat yang sangat jauh. Ada kasus di mana pasir dari gurun Sahara terbawa angin hingga ke Amerika Selatan!",
+    
+    "Salju": "Setiap kepingan salju unik, tidak ada dua kepingan salju yang sama persis. Bentuknya yang rumit dan indah terbentuk dari proses kristalisasi es di atmosfer, dipengaruhi oleh suhu, tekanan udara, dan kelembapan. Meskipun terlihat sederhana, salju menyimpan misteri yang kompleks dan menakjubkan.",
+    
+    "Cerah": "Cuaca cerah yang kita nikmati setiap hari menyimpan manfaat yang lebih dari sekadar suasana hati yang baik. Cahaya matahari yang melimpah membantu tubuh memproduksi vitamin D, yang penting untuk kesehatan tulang dan sistem kekebalan tubuh. Selain itu, cuaca cerah juga dapat meningkatkan produktivitas dan kreativitas. Jadi, nikmatilah cuaca cerah sebagai sebuah hadiah alam yang bermanfaat bagi kesehatan dan kesejahteraan kita.",
+}
+
 
 
 
@@ -140,7 +157,7 @@ logo_image = Image.open("asset/logo.png")
 st.sidebar.image(logo_image, use_container_width=True)
 
 st.sidebar.subheader("Perhatian:")
-st.sidebar.success("WeaVis adalah website yang dibangun bukan untuk tujuan komersil. Dilarang mengunggah dan menggunakan foto yang melanggar SARA dan berbau pornografi.  ")
+st.sidebar.warning("WeaVis adalah website yang dibangun bukan untuk tujuan komersil. Dilarang mengunggah dan menggunakan foto yang melanggar SARA dan berbau pornografi.  ")
 
 st.sidebar.markdown("")
 
@@ -177,14 +194,20 @@ if method == "Upload Gambar":
         if isinstance(prediction, str) and prediction.startswith("Error:"):
             st.error(prediction)
         else:
-            st.info(f"Cuaca Terdeteksi: **{prediction}**")
-            st.markdown("")
+            st.info(f"🔍 Cuaca Terdeteksi: **{prediction}**")
+            st.divider()
             st.markdown(f"**Penjelasan:**")
             st.markdown(weather_descriptions.get(prediction, 'Tidak ada deskripsi untuk cuaca ini.'))
             st.markdown("")
-            st.markdown(f"**Apa yang Boleh Dilakukan:** {weather_do.get(prediction, 'Ada kesalahan dalam menampilkan data.')}")
+            st.markdown(f"🏊‍♀️ **Apa yang Boleh Dilakukan:** {weather_do.get(prediction, 'Ada kesalahan dalam menampilkan data.')}")
             st.markdown("")
-            st.markdown(f"**Apa yang Tidak Boleh Dilakukan:** {weather_dont.get(prediction, 'Ada kesalahan dalam menampilkan data.')}")
+            st.markdown(f"⛔️ **Apa yang Tidak Boleh Dilakukan:** {weather_dont.get(prediction, 'Ada kesalahan dalam menampilkan data.')}")
+            st.markdown("")
+            st.markdown(f"**Fun Facts Seputar Cuaca:**")
+            st.markdown(weather_funfact.get(prediction, 'Tidak ada deskripsi untuk cuaca ini.'))
+            st.divider()
+            st.caption(f"Sumber Informasi: https://www.cici.com")
+            
             
     st.sidebar.markdown("")
     
@@ -240,22 +263,29 @@ elif method == "Gunakan Kamera":
         if isinstance(prediction, str) and prediction.startswith("Error:"):
             st.error(prediction)
         else:
-            st.info(f"Cuaca Terdeteksi: **{prediction}**")
-            st.markdown("")
+            st.info(f"🔍 Cuaca Terdeteksi: **{prediction}**")
+            st.divider()
             st.markdown(f"**Penjelasan:**")
             st.markdown(weather_descriptions.get(prediction, 'Tidak ada deskripsi untuk cuaca ini.'))
             st.markdown("")
-            st.markdown(f"**Apa yang Boleh Dilakukan:** {weather_do.get(prediction, 'Ada kesalahan dalam menampilkan data.')}")
+            st.markdown(f"🏊‍♀️ **Apa yang Boleh Dilakukan:** {weather_do.get(prediction, 'Ada kesalahan dalam menampilkan data.')}")
             st.markdown("")
-            st.markdown(f"**Apa yang Tidak Boleh Dilakukan:** {weather_dont.get(prediction, 'Ada kesalahan dalam menampilkan data.')}")
+            st.markdown(f"⛔️ **Apa yang Tidak Boleh Dilakukan:** {weather_dont.get(prediction, 'Ada kesalahan dalam menampilkan data.')}")
+            st.markdown("")
+            st.markdown(f"**Fun Facts Seputar Cuaca:**")
+            st.markdown(weather_funfact.get(prediction, 'Tidak ada deskripsi untuk cuaca ini.'))
+            st.divider()
+            st.caption(f"Sumber Informasi: https://www.cici.com")
             
             
 if not image_uploaded:
-    st.title("Selamat Datang Di WeaVis, Bro!")
-    st.subheader("Website Pengenalan Cuaca Berdasarkan Foto.")
+    st.title("Selamat Datang Di WeaVis, Bro! 👋")
+    st.subheader("Pelajari cuaca yang terjadi di sekitarmu.")
+    
+    st.divider()
 
     st.markdown("""
-        <div style="height: 100px;"></div>
+        <div style="height: 55px;"></div>
     """, unsafe_allow_html=True) 
 
     st.markdown("WeaVis adalah sebuah website pengenalan cuaca yang dapat membantu kamu mengenali cuaca yang sedang terjadi dan menampilkan informasi seputar cuaca tersebut. Informasi yang akan ditampilkan mencakup deskripsi cuaca, apa yang boleh dan tidak boleh dilakukan saat cuaca terjadi, penanganan terkait cuaca, dan berbagai informasi lainnya. WeaVis hadir dengan dua opsi pengenalan cuaca, yaitu melalui gambar yang diunggah, dan juga kamera yang secara langsung dapat mengambil foto cuaca terkini yang terjadi. WeaVis diharapkan dapat membantu penggunanya untuk memperoleh informasi seputar cuaca yang sedang terjadi. Selamat menggunakan!")
@@ -265,4 +295,3 @@ if not image_uploaded:
     """, unsafe_allow_html=True) 
 
     st.markdown("Dibuat oleh [Kelompok 15](https://docs.google.com/spreadsheets/d/1kWOsguB6gWW5dBPbkkw1AN8n3dHMTLUHsfM8UPJ2dgY/edit?gid=0#gid=0) TPL A 59, Sekolah Vokasi IPB.")
-
