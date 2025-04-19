@@ -60,28 +60,31 @@ We welcome contributions to this project. Please follow these steps to contribut
 
 - **CNN Based Model**
 <img src ="./asset/cnnbased_graph.png" width="60%">
-Akurasi Training Tertinggi: 0.79
-Akurasi Testing Tertinggi: 0.77
+Akurasi Training Tertinggi: 0.79 | Akurasi Testing Tertinggi: 0.77
+
+<br>
 
 - **ResNet50 Model**
 <img src ="./asset/ResNet50_graph.png" width="60%">
-Akurasi Training Tertinggi: 0.90
-Akurasi Testing Tertinggi: 0.90
+Akurasi Training Tertinggi: 0.90 | Akurasi Testing Tertinggi: 0.90
+
+<br>
 
 - **AlexNet Model**
 <img src ="./asset/AlexNet_graph.png" width="60%">
-Akurasi Training Tertinggi: 0.91
-Akurasi Testing Tertinggi: 0.88
+Akurasi Training Tertinggi: 0.91 | Akurasi Testing Tertinggi: 0.88
+
+<br>
 
 - **MobileNet v3 Large Model**
 <img src ="./asset/MobileNet v3 Large_graph.png" width="60%">
-Akurasi Training Tertinggi: 0.93
-Akurasi Testing Tertinggi: 0.91
+Akurasi Training Tertinggi: 0.93 | Akurasi Testing Tertinggi: 0.91
+
+<br>
 
 - **VGG16 Model**
 <img src ="./asset/VGG16_graph.png" width="60%">
-Akurasi Training Tertinggi: 0.93
-Akurasi Testing Tertinggi: 0.89
+Akurasi Training Tertinggi: 0.93 | Akurasi Testing Tertinggi: 0.89
 
 ## ⚖️ Copyright
 
