@@ -61,6 +61,7 @@ We welcome contributions to this project. Please follow these steps to contribut
 - **CNN Based Model**
 
 Akurasi Training Tertinggi: 0.79 | Akurasi Testing Tertinggi: 0.77
+
 <img src ="./asset/cnnbased_graph.png" width="60%">
 
 - **ResNet50 Model**
