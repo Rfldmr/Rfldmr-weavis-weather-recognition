@@ -59,31 +59,28 @@ We welcome contributions to this project. Please follow these steps to contribut
 ## 📉 Model Accuracy and Loss Graph
 
 - **CNN Based Model**
+<img src ="./asset/cnnbased_graph.png" width="60%">
 
 Akurasi Training Tertinggi: 0.79 | Akurasi Testing Tertinggi: 0.77
 
-<img src ="./asset/cnnbased_graph.png" width="60%">
-
 - **ResNet50 Model**
 <img src ="./asset/ResNet50_graph.png" width="60%">
-Akurasi Training Tertinggi: 0.90 | Akurasi Testing Tertinggi: 0.90
 
-<br>
+Akurasi Training Tertinggi: 0.90 | Akurasi Testing Tertinggi: 0.90
 
 - **AlexNet Model**
 <img src ="./asset/AlexNet_graph.png" width="60%">
-Akurasi Training Tertinggi: 0.91 | Akurasi Testing Tertinggi: 0.88
 
-<br>
+Akurasi Training Tertinggi: 0.91 | Akurasi Testing Tertinggi: 0.88
 
 - **MobileNet v3 Large Model**
 <img src ="./asset/MobileNet v3 Large_graph.png" width="60%">
-Akurasi Training Tertinggi: 0.93 | Akurasi Testing Tertinggi: 0.91
 
-<br>
+Akurasi Training Tertinggi: 0.93 | Akurasi Testing Tertinggi: 0.91
 
 - **VGG16 Model**
 <img src ="./asset/VGG16_graph.png" width="60%">
+
 Akurasi Training Tertinggi: 0.93 | Akurasi Testing Tertinggi: 0.89
 
 ## ⚖️ Copyright
