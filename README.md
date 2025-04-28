@@ -38,7 +38,7 @@ WeaVis is a simple website that can recognize weather uploaded by users or throu
   
 ## 📖 Dataset
 
-[Click here](https://drive.google.com/drive/folders/1FUQS6PoDmd0uHLU0gUPyAM5lNV8ODXzp?usp=sharing) to access the dataset.
+[Click here](https://drive.google.com/drive/folders/1FUQS6PoDmd0uHLU0gUPyAM5lNV8ODXzp?usp=sharing) or check the "Dataset" folder in the repository to access the dataset.
 
 <br>
 
