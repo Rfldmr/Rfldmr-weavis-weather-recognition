@@ -8,7 +8,6 @@ import os
 import time
 from io import BytesIO
 
-import torchvision
 
 torch.classes.__path__ = [os.path.join(torch.__path__[0], torch.classes.__file__)] 
 
