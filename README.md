@@ -22,10 +22,10 @@ WeaVis is a simple website that can recognize weather uploaded by users or throu
 
 ## Features
 
-- 📤 Weather recognition by uploading images.
-- 📸 Weather recognition with real-time camera.
-- 📢 Information on what to do and what not to do during the weather.
-- 📄 Explanation of the current weather.
+- Weather recognition by uploading images.
+- Weather recognition with real-time camera.
+- Information on what to do and what not to do during the weather.
+- Explanation of the current weather.
 
 ## Tech Stack
 
