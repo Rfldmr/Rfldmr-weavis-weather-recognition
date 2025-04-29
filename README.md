@@ -14,7 +14,7 @@
 
 ## Overview
 
-WeaVis is a simple website that can recognize weather uploaded by users or through live camera photos. WeaVis will also provide descriptions and information about the weather uploaded by users. WeaVis is built using a CNN model with MobileNet architecture, and Streamlit as a support library to build the website display.
+WeaVis is an AI-based weather recognition information system designed to recognize weather uploaded or photographed by users, and then display information about the weather. Built on the CNN algorithm with MobileNet v3 architecture, the weather predictions provided have very good accuracy values.
 
 ## Project Link
 
