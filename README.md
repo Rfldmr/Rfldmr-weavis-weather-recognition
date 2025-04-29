@@ -14,7 +14,7 @@
 
 ## Overview
 
-WeaVis is an AI-based weather recognition information system designed to recognize weather uploaded or photographed by users, and then display information about the weather. Built on the CNN algorithm with MobileNet v3 architecture, the weather predictions provided have very good accuracy values.
+WeaVis is an AI-based weather recognition information system designed to recognize weather uploaded or photographed by users, and then display information about the weather. Built on PyTorch, with CNN algorithm plus MobileNet v3 architecture, the weather predictions provided have very good accuracy values.
 
 ## Project Link
 
