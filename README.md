@@ -90,8 +90,7 @@ Akurasi Training Tertinggi: 0.93 | Akurasi Testing Tertinggi: 0.89
 
 ## Reference
 
-Kumar, S. (2021). *Weather Image Recognition using CNN*. Kaggle.
-https://www.kaggle.com/code/sayamkumar/weather-image-recognition-using-cnn/notebook
+Kumar, S. (2021). *Weather Image Recognition using CNN*. Kaggle. [Click here](https://www.kaggle.com/code/sayamkumar/weather-image-recognition-using-cnn/notebook)
 
 ## Copyright
 
