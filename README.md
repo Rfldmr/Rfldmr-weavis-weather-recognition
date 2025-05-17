@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<h2>⛅ WeaVis: Weather Recognition</h2>
+<h2>WeaVis: Weather Recognition</h2>
 
 <br>
 
